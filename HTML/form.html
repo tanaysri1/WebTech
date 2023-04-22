@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Bank Detail</legend>
+      <label>Enter your Account Number</label>
+      <input type="text" name="accno" required />
+      <label>Enter your Account Holder name</label>
+      <input type="text" name="accholder" required />
+    </fieldset>
+    <br />
+    <form align="center">
+      <div>
+        <label for="fname">Enter FullName:</label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter your full name"
+          minlength="2"
+          maxlength="20"
+          pattern="[a-zA-Z]{2,20}"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="fpass">Enter Your Password:</label>
+        <input
+          type="password"
+          name="pass"
+          placeholder="Enter your password"
+          id="fpass"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label>Enter your Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label>Enter your Contact:</label>
+        <input
+          type="tel"
+          name="contact"
+          placeholder="Enter your contact number"
+          pattern="[0-9]{10,12}"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Enter your DoB</label>
+        <input type="date" name="dob" required />
+      </div>
+      <br />
+      <div>
+        <label for="">Select your Gender</label>
+        <input type="radio" name="gender" value="male" checked /> Male
+        <input type="radio" name="gender" value="female" /> Female
+        <input type="radio" name="gender" value="transgender" /> Transgender
+      </div>
+      <br />
+      <div>
+        <label>Select your Qualification:</label>
+        <input type="checkbox" name="edu" value="ssc" />SSC
+        <input type="checkbox" name="edu" value="hsc" />HSC
+        <input type="checkbox" name="edu" value="ug" />UG
+        <input type="checkbox" name="edu" value="pg" />PG
+      </div>
+      <br />
+      <div>
+        <label>Select your State</label>
+        <select name="state" required>
+          <option value="">Select your State</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="UP">UP</option>
+          <option value="MP">MP</option>
+          <option value="Karnataka">Karnataka</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Course Fees:</label>
+        <input type="text" name="fees" value="100000" readonly disabled />
+      </div>
+      <br />
+      <div>
+        <label>Give your feedback</label>
+        <textarea name="feedback" cols="30" rows="10"> </textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+19.04.23:
+
+HTML-
+    1. It is used to create structure of webpage or website.
+    2. display data to user on browser.
+    3. it is Hyper Text Markup Language.
+    4. Latest version of html is html5.
+
+- It is a tag based language.
+-Tag is denoted as <tag> //angle brackets
+- Two types of tag in HTML:
+    i) Paired tag: <start-tag> </ending-tag> 
+    ii) Unpaired tag. <single-tag>
+
+DOCTYPE- 
+    we write once and it tells the search engine that this is a HTML type of document that belongs to version 5.
+    Every version had different syntax for denoting DOCTYPE.
+
+-in html page we have two parts:
+    1. head: We write metadata and import extenal links.
+    2. body: We write content or information to display on browser.
+
+-Metadata gives information of data.
+    <meta charset="UTF-8"> -character set is given UTF-8 to convert binary to alphabets after data
+        is passed from server to our machines. Unicode Transformation Format – 8-bit.
+    <meta name="viewport" -To make it flexible for any screen for any device.
+    - To adjust width according to various device screens.
+    - For maintaining zooming level of the screen.
+
+Nesting Tag
+    writing one tag inside another tag. Ex-  <b><i><u> Tanay</u></i> </b>
+
+Element in HTML
+    following line is called as Element
+    Syntax: <start-tag attribute="value"> content </ending-tag>
+-Attribute: 
+    It gives additional info about tag.
+    It is always written in starting tag.
+    It is written in key and value format.
+
+HTML API(Application Programming Interface) was introduced.
+	 API is small javascript inbuilt program
+	 APIs are:
+	 1. Geolocation: It returns user's current position. 
+	 2. Drag and drop: We can grab an object from one location and drag it to another location.
+	 3. Web-worker: (Used in single page application) It is a small javascript code 
+					which executes at backend of webpage without affecting its current execution.
+	*4. Webstorage: It is used to store user data on browser. (not in database or server)
+			Types-
+			1. Local storage: It stores data permanently. Ex- Browser saves ID, Password in browser. 
+			2. Session storage: It stores data for a limited duration. Ex- Online exam duration because it only stores credentials for 3 hrs.
+	 5. SSE(Server Sent Event): It allows us to get automatic update from server.
+	 
+-Semantic elements- They are elements which describe specific and clear meaning to browser and developer. 
+					Ex- header, footer, section, nav, aside 
+-Non-Semantic elemets- The elements which dont have specific meaning.
+					Ex- div and span
+
+-Block Element: The elements which always starts on a new line because it takes full width of screen.
+                Basically a block is taken by the block element tags.
+				Ex- <h1> - <h6>, p, div, table 
+-Inline Element: The elements which never start on a new line because it takes required width of it. 
+                Basically it only takes the space which is specified.
+				Ex- b, i, u, a,img, span
+
+-List: Items in a particular order. It is a block element.
+1. Order list: List in a particular order.
+    types: number, A(Upper case), B, c, a, b,c, I, II, III, i, ii, iii.
+2. Inorder list: List not in a particular order.
+    types: disc, square, circle, none.
+3. Description list:
+    types: dl(description list), dt(description data term), dd(description data definition)
+
+-Inserting image into Web page
+    Two ways-
+    1. Absolute Path.
+    2. Relative Path.(Always use)
+
+-Inserting location to a web site
+    previously the tag was called <frame>
+    now it is <iframe>
+
+-Create a link in webpage(Website with multi-pages)
+    It will redirect us from one location to another. 
+    In html, we use anchor tag for creating a link.
+    Link always opens in the same page, so to open it in new tab we target attribute,
+
+-Table: 
+    Collection of rows and columns.
+    Row is created first then column.
+-Table with RowSpan: Merging two or more rows so they look like one row.
+-Table with ColSpan: Merging two or more columns.
+-Table with RowSpan and ColSpan: Merging of rows and columns both.
+
+HW
+Q) Table
+Q) Top navigation link.
+
+20.04.23
+
+
+-Form
+    It is used to get data from user. (To collect data)
+    Two methods to submit data:
+    1. get method: When the data is not confidential or essential, we use this method. 
+            The data will be displayed in the url.
+            There is data limit for insertion.
+    2. post method: When the data is confidential or important, we use this method.
+-Label
+    Input control
+    New input type
+    new attribute
+    fieldset and legend
+HW
+Q) Create a form for your resume.
+Q) Create image as link.
+
+-Use of iframe tag 
+    To insert googlemap location
+    we can insert YT video
+    Display one website into another

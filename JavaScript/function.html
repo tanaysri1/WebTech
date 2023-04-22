@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // default function
+      function greeting() {
+        return "Welcome all of you in Infoway";
+      }
+      document.write(greeting(), "<br>");
+      //parameterized function
+      function welcome(s1, s2) {
+        return `Welcome you ${s1} ${s2}`; // return "Welcome "+s1+s2;
+      }
+      // document.write(welcome("Tanay"));
+      document.write(welcome("Akshay", " Ashwini"));
+      document.write("<br>");
+
+      // Anonymous function
+      var add = function () {
+        return 50 + 20;
+      };
+      document.write(add());
+      document.write("<br>");
+      var add = function (n1, n2) {
+        return n1 + n2;
+      };
+      document.write(add(150, 35));
+      document.write("<br>");
+      //    Arrow function
+      var mul = () => {
+        return 5 * 5;
+      };
+      document.write(mul());
+      document.write("<br>");
+
+      var mul1 = (n1, n2) => {
+        return n1 * n2;
+      };
+      document.write(mul1(10, 20));
+      document.write("<br>");
+
+      //Optional paramterized function
+      var fullname = (fname, lname, mname = "") => {
+        return `${fname} ${mname} ${lname}`;
+      };
+      document.write(fullname("<br> Tanay", "Srivastava"));
+      document.write(fullname("<br> Tanay", "Srivastava", "K."));
+
+      //   spread parameterized function
+      var stdlist = (...std) => {
+        return `${std}`;
+      };
+
+      document.write(
+        stdlist("<br >Rahul", "Aadesh", "Aditya", "Tanay", "Swapnil")
+      );
+    </script>
+  </body>
+</html>

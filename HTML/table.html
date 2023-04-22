@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+
+    <h2>Simple Table</h2>
+    <table border="" width="70%">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Rohit</td>
+          <td>Pune</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Tanay</td>
+          <td>Pune</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Swapnil</td>
+          <td>Pune</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Table with RowSpan</h2>
+    <table border="" width="70%">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tr>
+        <td rowspan="2">A</td>
+        <td>B</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td rowspan="2">E</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+    </table>
+
+    <h2>Table with ColSpan</h2>
+    <table border="" width="70%">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td colspan="2">A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>D</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td colspan="2">G</td>
+      </tr>
+    </table>
+
+    <h2>Table with ColSpan and RowSpan together</h2>
+    <table border="" width="70%">
+      <tr>
+        <td colspan="2" rowspan="2" bgcolor="red">A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+      </tr>
+    </table>
+    
+  </body>
+</html>

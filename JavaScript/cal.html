@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label>Enter the first number:</label>
+      <input type="text" name="fno" id="fno" /> <br /><br />
+      <label>Enter the second number:</label>
+      <input type="text" name="sno" id="sno" /> <br />
+      <button type="button" onclick="addition()">Add</button>
+    </form>
+<script>
+    function addition(){
+        // console.log("h1");
+        var n1=document.getElementById("fno").value;
+        var n2=document.getElementById("sno").value;
+        console.log(parseInt(n1)+parseInt(n2));
+    }
+
+</script>
+    
+  </body>
+</html>

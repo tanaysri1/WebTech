@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var city = ["Pune", "Mumbai", "Nagpur", "Nagar"];
+      console.log(city);
+      console.log(city.length); //it returns array length
+      console.log(city.length - 1); //it returns array size
+      console.log(city[2]); //it returns 3rd value
+      city[1] = "MUMBAI";
+      console.log(city);
+      // pus
+      city.push("Amravati");
+      console.log(city);
+      city.push("Latur");
+      console.log(city);
+      //   pop
+      city.pop();
+      console.log(city);
+      // unshift
+      city.unshift("Jalgaon", "Dhule");
+      console.log(city);
+      // shift
+      city.shift();
+      console.log(city);
+      //   splice
+      city.splice(3, 0, "Chandrapur", "Gondia");
+      console.log(city);
+      city.splice(2, 2);
+      console.log(city);
+      city.splice(3, 1, "Nashik", "Jalgaon");
+      console.log(city);
+
+      // tostring()
+      console.log(city.toString());
+      // join(separator)
+      console.log(city.join(" "));
+    </script>
+  </body>
+</html>

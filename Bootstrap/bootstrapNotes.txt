@@ -1,0 +1,52 @@
+-Bootstrap
+    It is a HTML, CSS and JavaScript Framework.
+    It makes a website and webapp attractive, responsive and mobile-friendly.
+    It provides inbuilt classes.
+
+-There are two ways to use Bootstrap
+    1. By using CDN Link(The links provided by Bootstrap for us in their official site): 
+        It stands for Content Delivery Network.
+    2. By downloading().
+
+-Official website
+getboostrap.com(Open Source and Free)
+
+-How to use CDN Link
+    Display classes(total 6)
+
+-Container classes 
+    It converts elements into block and apply 15px margin from left and right side.
+-Container-fluid class
+    It converts elements into block and apply 100% width to an elemenet.
+
+-button classes
+-button color classes
+-button-outline classes-button size
+-spinner-border
+-spinner-grow
+
+
+*-Grid
+    It helps us to manage layout according to different screen size.
+    It has two classes: .row and .col
+    In grid's single row, we can only insert columns with size 12 and not more than that, otherwise next column will start on a new row.
+
+-Screen-width >= 1200px ==>.xl
+-Screen-width >= 996px ==>.lg
+-Screen-width >= 768px ==>.md
+-Screen-width >= 576px ==>.sm
+-Screen-width < 576px ==> xsm(Not a class)
+
+-Class
+    .col-size
+    .col-screen-size
+
+-Form classes
+
+-Form validation classes:
+    .need-validation: It will perform validation after pressing submit button and display error. It requires JavaScript code
+    .was-validated: It will perform validation before pressing submit button and will display error.
+
+-Alert
+    Alert classes
+    Alert with closing button

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover</title>
+    <style>
+      .cls1 {
+        text-align: center;
+        /* border: 2px solid; */
+        color: tomato;
+      }
+      .cls1:hover {
+        /* border: 2px solid; */
+        width: 200px;
+        margin: auto;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: fantasy;
+        letter-spacing: 12px;
+        word-spacing: 9px;
+        text-transform: uppercase;
+        text-shadow: 9px 4px 3px black;
+      }
+      .parent {
+        border: 3px solid blue;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: yellowgreen;
+      }
+      .child {
+        /* visibility: hidden; */
+        display: none;
+        color: navy;
+        font-size: 45px;
+        background-color: lawngreen;
+      }
+      .parent:hover .child{
+        display: block;
+      }
+      .cls2{
+        margin: auto;
+    border: 4px solid green;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+   background-image: url(../Assets/images/download\ \(2\).jpeg);
+}
+.cls3{
+    border: 2px solid red;
+    width: 200px;
+    height: 145px;
+    margin: auto;
+    border-radius: 9px;
+    background-color: black;
+    opacity: 0.65;
+}
+.cls4{
+    border:2px solid;
+    width: 300px;
+    height:100px;
+    background-color: red;
+
+}
+.cls5{
+    background-color: orange;
+    border: 3px solid blue;
+    width: 500px;
+    height: 53px;
+    z-index: -1;
+    position: absolute;
+}
+
+
+    </style>        
+  </head>
+  <body>
+    <div class="cls1">Tanay Srivastava</div>
+    <div class="parent">
+      Check your gift card
+      <div class="child">Better luck next time</div>
+    </div>
+    <div class="cls2">
+        hi  
+        <div class="cls3">
+            hello
+        </div>
+        <div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="cls4">
+        Tanay
+        <div class="cls5">
+            Ganesh
+        </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+Javascript
+    It is used to add functionalities into webpage and webapps.
+    It is interpreted language. (Direct execution, no compilation)
+    It is a loosely typed language, because when we create a variable in js we cannot determine what type of data it contains until and unless we store data in a variable.
+    We only need browser for its execution.
+    v8 engine in Chrome is used for Javascript, spidermonkey is in Firefox.
+    It is a object based language, window is a global object
+
+-There are two ways to use js-
+    Internal js: script tag is used for internal execution in html page(like <style> for css)
+    external js: we create a separate js file and import it in the head section of html file(like .css file)
+
+-Data types in js-
+    number:15324532,0.5,15
+    string:"" or '' 
+    boolean: true or false
+    NULL: variable with empty value(so garbage value isn't stored)
+    undefined: When we dont know the datatype.
+    array: Array is fixed length in c++, java but in  js it is dynamic 
+    object(If we want data members of a class, we use object to access them. Static data types can be accessed outside of a class)
+
+-How to get out in js-
+    document.write() //document is an object, write is a method
+        It will display output at bottom of a webpage.
+    window.alert()      //window is an object, alert is a method
+        It will display output in a popup window, it has the highest priority for execution.
+    console.log()          // console is an object, log is a method
+        It will display output in browser console.
+    DOM(Document Object Model) 
+
+-How to create a variable in js
+    var x; //Declaration
+    x=120; //Initialization
+    var y="h1"; //Declaration and Initialisation
+
+-Anonymous functions
+    Function with no name.
+    Its data type is function
+
+-Arrow function
+    Function with no name and no function keyword
+
+-Optional Parameterized function
+     No need to pass parameter, can use arrow or anonymous function.
+     The 3rd parameter is used to pass the optional parameter
+
+-spread paramterized function
+    When we dont know how many parameters are required, then we use spread operator(...)
+
+-advanced function
+    how to get value from input control using DOM.
+
+-Event
+onClick
+
+HW
+Q) Calculator
+Q) Choice(Drop Down), Color(new input type), set color to show the output.
+Q) Permanent address same as temporary.
+
+-Array
+    It is used to store multiple values with same data type.
+    In array data stored on index basis.
+    array index always start from 0 index.
+    Array denoted by []
+    

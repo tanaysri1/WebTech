@@ -1,0 +1,12 @@
+.header {
+  background-color: lightgray;
+  font-family: system-ui;
+}
+
+.h1 {
+  border: 5px solid darkgreen;
+}
+
+.p1 {
+  padding: 3px 37px;
+}

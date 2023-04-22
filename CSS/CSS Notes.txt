@@ -1,0 +1,55 @@
+-CSS
+    It is used to design and make website or web app attractive and responsive.
+    CSS stands Cascading Style Sheet.
+
+-Types of CSS(Different ways to use CSS)
+    1. Inline CSS: 
+        In this, we write style attribute in the starting tag. In which we write Property and Value.
+
+    2. Internal CSS:
+        In this, we write style tag in HTML file in that we write CSS code.
+        Syntax: selector{
+            Property:Value;
+                Property:Value;
+                    Property:Value;
+        }
+    3. External CSS
+        In this, we create CSS file with .css extension and that css file we import
+        in the HTML file by using <link>. 
+        Can only be linked in head section of HTML file.
+
+-Types of selector
+    1. Element selector:
+        Select element with name. 
+    2. Group selector:
+        We use group of element name.
+    3. ID selector(#):
+        It applies CSS property to single element among multiple.
+    4. class selector(.):
+        It applies CSS property to specific number of elements.
+    5. Universal selector(*):
+        To apply CSS property to all the selector.
+
+-Box Model
+1. Content: It can be any text or image.
+2. Padding: It clear area between content and element border.
+3. Border: A line drawn around an element.
+4. Margin: It clears area between element borderand window screen
+
+-Pseudo Class
+    The classes provided by the CSS to us.
+    Ex- active, visited, hover, link
+    Hover-: It changes appearance of an element when you hover on it
+
+-Opacity
+    It defines elements transparency.
+    Its value will vary from 0 to 1.
+
+-z-index
+    It help us to decide stack elements on top of all elements.
+    It has value of 1 and -1.
+
+-Nav Bar
+    1. Vertical nav bar
+    2. Horizontal nav bar
+
